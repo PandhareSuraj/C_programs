@@ -1,0 +1,4 @@
+nagar 7
+nashik 5
+pune 4
+sangamner 2

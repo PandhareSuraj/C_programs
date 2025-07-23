@@ -1,0 +1,89 @@
+<!-- Create a SYBCS timetable using table tags of HTML.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYBCS Time Table</title>
+    <style>
+        table {
+            width: 80%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #d7c8c8;
+        }
+        h1 {
+            text-align: center;
+        }
+        #break{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>SYBCS TIME TABLE</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:30 AM - 09:30 AM</td>
+                <td>SEC</td>
+                <td>OOSE (KSA)</td>
+                <td>(HRM) OE-5</td>
+                <td>(HRM) OE-5</td>
+                <td>SEC</td>
+                <td>OOSE (KSA)</td>
+            </tr>
+            <tr>
+                <td>08:30 AM - 09:30 AM</td>
+                <td>SEC</td>
+                <td>OOSE (KSA)</td>
+                <td>(HRM) OE-5</td>
+                <td>(HRM) OE-5</td>
+                <td>SEC</td>
+                <td>OOSE (KSA)</td>
+            </tr>
+            
+            <tr>
+                <td>09:30 AM - 09:45 AM</td>
+                <td class="break" colspan="7">BREAK</td>
+            </tr>
+            <tr>
+                <td>09:45 AM - 10:45 AM</td>
+                <td>M-2 (PSY/BSC)</td>
+                <td>M-2 (PSY/BSC)</td>
+                <td>APP (TMK)</td>
+                <td>APP (TMK)</td>
+                <td>DS-I (SRI)</td>
+                <td>DS-I (SRI)</td>
+            </tr>
+            <tr>
+                <td>08:30 AM - 09:30 AM</td>
+                <td>SEC</td>
+                <td>OOSE (KSA)</td>
+                <td>(HRM) OE-5</td>
+                <td>(HRM) OE-5</td>
+                <td>SEC</td>
+                <td>OOSE (KSA)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
